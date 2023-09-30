@@ -11,6 +11,8 @@ const passageira1 = new Passenger('Lais', 17, 1111);
 const passageira2 = new Passenger('Marta', 34, 2222);
 const passageira3 = new Passenger('Dani', 53, 3333);
 
+// passageira1.changePassaword(1111, 2222)
+
 console.log('passageira 1: ', passageira1);
 console.log('passageira 2: ', passageira2);
 console.log('passageira 3: ', passageira3);
