@@ -19,12 +19,18 @@ passageira1.requestDrive(motorista1, 12, 1111);
 passageira1.requestDrive(motorista2, 35, 1111);
 passageira2.requestDrive(motorista1, 24, 2222);
 
-console.log('passageira 1: ', passageira1);
-console.log('passageira 2: ', passageira2);
-console.log('motorista 1: ', motorista1);
-console.log('motorista 2: ', motorista2);
+Driver.numberOfDrivers();
+Passenger.numberOfPassengers();
 
-console.log('amount da passageira 1: ', passageira1.amount);
-console.log('amount da passageira 2: ', passageira2.amount);
-console.log('amount da motorista 1: ', motorista1.amount);
-console.log('amount da motorista 2: ', motorista2.amount);
+Driver.ageAverage();
+Passenger.ageAverage();
+
+// console.log('passageira 1: ', passageira1);
+// console.log('passageira 2: ', passageira2);
+// console.log('motorista 1: ', motorista1);
+// console.log('motorista 2: ', motorista2);
+
+// console.log('amount da passageira 1: ', passageira1.amount);
+// console.log('amount da passageira 2: ', passageira2.amount);
+// console.log('amount da motorista 1: ', motorista1.amount);
+// console.log('amount da motorista 2: ', motorista2.amount);
